@@ -1,69 +1,57 @@
-# React + TypeScript + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+# PORTIFOLIO
+This is my portfolio website built with React and TypeScript. It showcases my projects, skills,
+and contact information.
+## Features
+- Responsive design for optimal viewing on all devices.
+- Dark and light theme toggle.
+- Smooth navigation with React Router.
+- Integration with social media links.
+## Technologies Used
+- React
+- TypeScript
+- React Router
+- CSS Modules
+- Lucide Icons
+## Getting Started
+### Prerequisites
+- Node.js
+- npm or yarn
+### Installation
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/your-username/your-repo.git
+    cd your-repo
+    ```
+2. Install dependencies:
+    ```bash
+    npm install
+    # or
+    yarn install
+    ```
+3. Start the development server:
+    ```bash
+    npm start
+    # or
+    yarn start
+    ```
+4. Open your browser and navigate to `http://localhost:3000` to view the
+    application.
+## Deployment
+To build the application for production, run:
+```bash
+npm run build
+# or
+yarn build
 ```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+This will create a `build` directory with the production build of your app.
+## Contributing
+Contributions are welcome! Please fork the repository and create a pull request with your changes.  
+Make sure to follow the existing code style and include tests for new features.
+## License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details
+.
+## Contact
+For any questions or inquiries, please contact me at [your-email@example.com](mailto:jitutesfaye17@gmail.com)
+  or visit my [LinkedIn](https://www.linkedin.com/in/your-profile) profile.
+## Acknowledgements
+- Thanks to the open-source community for the libraries and tools that made this project possible.
