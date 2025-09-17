@@ -51,7 +51,7 @@ Make sure to follow the existing code style and include tests for new features.
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details
 .
 ## Contact
-For any questions or inquiries, please contact me at [your-email@example.com](mailto:jitutesfaye17@gmail.com)
+For any questions or inquiries, please contact me at [jitutesfaye17@gmail.com](mailto:jitutesfaye17@gmail.com)
   or visit my [LinkedIn](https://www.linkedin.com/in/your-profile) profile.
 ## Acknowledgements
 - Thanks to the open-source community for the libraries and tools that made this project possible.
