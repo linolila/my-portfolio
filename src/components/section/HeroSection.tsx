@@ -1,6 +1,7 @@
-import Button from "../ui/Button";
+
 import cvFile from "../../assets/Jitu_last.pdf"
 import {SITE } from '../../constants/site'
+import { Button } from "../ui/button";
 export default function Hero() {
     return (
         <section
