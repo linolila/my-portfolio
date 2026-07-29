@@ -110,7 +110,7 @@ export default function Hero() {
                 <div className="flex gap-4">
 
                     <a href="#projects">
-  <Button variant="primary">
+  <Button variant="default">
     View Projects
   </Button>
 </a>
